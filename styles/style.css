@@ -1,1 +1,40 @@
 /* CSS Document */
+
+#navbar {
+    /* self */
+    padding: .5em;
+    /* children */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.nav-element {
+    margin: 0 .5em;
+}
+.nav-txt {
+
+}
+.nav-txt:hover {
+    text-decoration: underline;
+}
+.nav-icon {
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    background-color: lightgray;
+}
+/* to the left */
+#about-us {
+}
+#google-store {
+}
+/* to the right */
+#gmail {
+    margin-left: auto !important;
+}
+#images {
+}
+#apps {
+}
+#profile {
+}
