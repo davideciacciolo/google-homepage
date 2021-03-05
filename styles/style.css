@@ -1,4 +1,5 @@
 /* CSS Document */
+
 body {
     height: 100vh;
     font-size: 14px;
@@ -8,146 +9,172 @@ body {
     display: flex;
     flex-flow: column nowrap;
 }
-#navbar {
-    max-height: 48px;
-    height: 48px;
-    min-height: fit-content;
-    padding: 0 6px;
-    flex-grow: 2;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    font-size: 13px;
-}
-    .nav-element {
-        margin: 0 6px;
-    }
-    .nav-txt:hover {
-        text-decoration: underline;
-    }
-    .nav-icon {
-        border-radius: 50%;
-        height: 26px;
-        width: 26px;
-    }
-    #gmail {
-        /* this is here to make gmail, images, apps, profile appear on the right */
-        margin-left: auto !important;
-    }
-    #apps {
-        background-color: #DE5246;
-    }
-    #profile {
-        background-color: #4C8BF5;
-    }
-
-#main-doc {
-    flex-grow: 25;
-    display: flex;
-    flex-flow: column nowrap;
-}
-    #logo-div {
-        flex-grow: 1;
+    #navbar {
+        max-height: 48px;
+        height: 48px;
+        min-height: fit-content;
+        padding: 0 6px;
+        flex-grow: 2;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
-        align-items: flex-end;
-    }
-        #logo {
-            height: 92px;
-            width: 272px;
-        }
-    #main-form {
-        padding: 20px;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: flex-start;
         align-items: center;
+        font-size: 13px;
     }
-        #searchbar-div {
-            height: 44px;
-            width: 584px;
-            background: #FFF;
-            border: 1px solid #DFE1E5;
-            border-radius: 22px;
-            display: flex;
-            flex-flow: row nowrap;
-            align-items: center;
+        .nav-element {
+            margin: 0 6px;
         }
-        #searchbar-div:hover {
-            box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
-            border-color: rgba(223, 225, 229, 0);
-        }
-            .search-element {
-                margin: 4px;
-                flex-grow: 0;
-            }
-            #search-icon {
-                height: 36px;
-                width: 36px;
-                background-color: #FFF;
-                border: 1px solid #DFE1E5;
-                border-radius: 50%;
-            }
-            #searchbar {
-                margin: 4px 10px;
-                flex-grow: 10;
-            }
-            #rec-icon {
-                height: 36px;
-                width: 36px;
-                background-color: #FFF;
-                border: 1px solid #DFE1E5;
-                border-radius: 50%;
-            }
-            #rec-icon:hover {
-                cursor: pointer;
-            }
-        #buttons-div {
-            padding: 18px 0 0 0;
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-        }
-            .form-button {
-                min-width: 54px;
-                height: 36px;
-                margin: 11px 4px;
-                padding: 0 16px;
-                background-color: #F8F9FA;
-                border: 1px solid #F8F9FA;
-                border-radius: 4px;
-                color: #3C4043;
-                font-family: Arial, sans-serif;
-                font-size: 14px;
-                text-align: center;
-                cursor: pointer;
-            }
-            .form-button:hover {
-                box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-                border: 1px solid #DADCE0;
-                color: #202124;
-            }
-    #info-div {
-        flex-grow: 1;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-        #info-link {
-            padding: 0 3px;
-            font-size: 13px;
-            color: #1a0dab;
-        }
-        #info-link:hover {
+        .nav-txt:hover {
             text-decoration: underline;
         }
-        #info-link:visited {
-            color: #800080;
+        .nav-icon {
+            border-radius: 50%;
+            height: 26px;
+            width: 26px;
         }
-#footer {
-    flex-grow: 3;
-    /* temporary color */
-    background-color: lightgray;
-}
+        #gmail {
+            /* this is here to make gmail, images, apps, profile appear on the right */
+            margin-left: auto !important;
+        }
+        #apps {
+            background-color: #DE5246;
+        }
+        #profile {
+            background-color: #4C8BF5;
+        }
+
+    #main-doc {
+        flex-grow: 25;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        #logo-div {
+            flex-grow: 1;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: flex-end;
+        }
+            #logo {
+                height: 92px;
+                width: 272px;
+            }
+        #main-form {
+            padding: 20px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+            #searchbar-div {
+                height: 44px;
+                width: 584px;
+                background: #FFF;
+                border: 1px solid #DFE1E5;
+                border-radius: 22px;
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+            }
+            #searchbar-div:hover {
+                box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+                border-color: rgba(223, 225, 229, 0);
+            }
+                .search-element {
+                    margin: 4px;
+                    flex-grow: 0;
+                }
+                #search-icon {
+                    height: 36px;
+                    width: 36px;
+                    background-color: #FFF;
+                    border: 1px solid #DFE1E5;
+                    border-radius: 50%;
+                }
+                #searchbar {
+                    height: 60%;
+                    margin: 4px 10px;
+                    font-size: 16px;
+                    flex-grow: 10;
+                }
+                #rec-icon {
+                    height: 36px;
+                    width: 36px;
+                    background-color: #FFF;
+                    border: 1px solid #DFE1E5;
+                    border-radius: 50%;
+                }
+                #rec-icon:hover {
+                    cursor: pointer;
+                }
+            #buttons-div {
+                padding: 18px 0 0 0;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+            }
+                .form-button {
+                    min-width: 54px;
+                    height: 36px;
+                    margin: 11px 4px;
+                    padding: 0 16px;
+                    background-color: #F8F9FA;
+                    border: 1px solid #F8F9FA;
+                    border-radius: 4px;
+                    color: #3C4043;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+                .form-button:hover {
+                    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+                    border: 1px solid #DADCE0;
+                    color: #202124;
+                }
+        #info-div {
+            flex-grow: 1;
+            font-size: 13px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: flex-start;
+        }
+            #info-link {
+                padding: 0 3px;
+                font-size: 13px;
+                color: #1a0dab;
+            }
+            #info-link:hover {
+                text-decoration: underline;
+            }
+            #info-link:visited {
+                color: #800080;
+            }
+            
+    #footer {
+        background-color: #F2F2F2;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        #country {
+            padding: 14px 30px;
+            border-bottom: 1px solid #DADCE0;
+            font-size: 15px;
+            color: rgba(0, 0, 0, .54);
+            flex-grow: 1;
+        }
+        #footer-links {
+            padding: 14px 0;
+            flex-grow: 1;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+            .footer-link {
+                padding: 0 12px;
+                font-size: 14px;
+                color: #70757A;
+            }
+            .footer-link:hover {
+                text-decoration: underline;
+            }
