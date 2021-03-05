@@ -15,42 +15,26 @@
                 <a href="#" id="apps" class="nav-element nav-icon"></a>
                 <a href="#" id="profile" class="nav-element nav-icon"></a>
         </nav>
-        <main>
-            <!--Main section-->
-            <div>
-                <!--Contains the logo-->
-                <img src="images/googlelogo_color_272x92dp.png" alt="Google">
+        <main id="main-doc">
+            <div id="logo-div" class="main-section">
+                <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google">
             </div>
-            <div>
-                <!--Contains [search bar, buttons] form and further info-->
-                <form>
-                    <div>
-                        <!--search bar-->
-                        <div>
-                            <!--search icon to the left-->
-                            <i>search</i>
-                        </div>
-                        <div>
-                            <!--text input at the centre-->
-                            <input type="text">
-                        </div>
-                        <div>
-                            <!--rec icon to the right-->
-                            <i>rec</i>
-                        </div>
-                    </div>
-                    <div>
-                        <!--buttons section-->
-                        <input type="submit" aria-label="Google Search">
-                        <input type="submit" aria-label="I'm Feeling Lucky">
-                    </div>
-                </form>
-                <div>
-                    <p>Google offered in: <a href="#">English</a></p>
+            <form id="main-form" class="main-section">
+                <div id="searchbar-div" class="form-div">
+                    <i id="search-icon" class="search-element"></i>
+                    <input id="searchbar" class="search-element" type="text">
+                    <i id="rec-icon" class="search-element"></i>
                 </div>
+                <div id="buttons-div" class="form-div">
+                    <input id="googlesearch-button" class="form-button" type="submit" value="Google Search">
+                    <input id="feellucky-button" class="form-button" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+            <div id="info-div" class="main-section">
+                Google offered in: <a id="info-link" href="#">English</a></p>
             </div>
         </main>
-        <footer>
+        <footer id="footer">
             <!--Footer-->
             <div>
                 <!--Location info-->
